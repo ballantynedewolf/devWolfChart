@@ -8,8 +8,15 @@ Now that's out of the way, the objectives are:
   1. Clinically relevant, scientifically supported visual acuity measurement in the widest possible range of clinical and research settings
   2. Open source with GNU licence
   3. Can be used on a wide variety of screen hardware
-  3. Customisable optotypes and alphabets to come eg Hebrew, Chinese, Thai, Cyrillic etc
-    
+  3. Customisable optotypes and alphabets to come eg Arabic, Hebrew, Chinese, Thai, Cyrillic etc
+
+To Do List
+ - Fix cross-browser issues with use of the viewport:
+   - Remove user control of display width - just use the whole viewport width always, except for a column on RHS containing the hamburger and the nav controls to be added in ver2.
+   - Fix viewport height problems in mobile browsers - they go into fullscreen mode on scroll down and it breaks the formatting. Again, use full viewport height always.
+ - Setup index.htm & sw.js for pushing updates to users via a standard snackbar at foot.
+ - Make config menu fieldsets collapse like their help section, preparing for having more config menu items.
+ - Work out a way to use colorpicker to set Hue and Lightness but NOT Saturation of a small div, so that we can set up filter colours for right and left eyes. User views the div through a coloured filter and sets H and L to make it appear the same colour as a nearby div that is 50% grey. A good alternative would be to view through the glass filter a coloured letter against a 50% grey bg that disappears when you get the right setting
     
 Ver1.8
  - fixed bug of bg colour not stored on first use.
