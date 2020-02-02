@@ -16,7 +16,7 @@ To Do List
    - Fix viewport height problems in mobile browsers - they go into fullscreen mode on scroll down and it breaks the formatting. Again, use full viewport height always.
  - Setup index.htm & sw.js for pushing updates to users via a standard snackbar at foot.
  - Make config menu fieldsets collapse like their help section, preparing for having more config menu items.
- - Work out a way to use colorpicker to set Hue and Lightness but NOT Saturation of a small div, so that we can set up filter colours for right and left eyes. User views the div through a coloured filter and sets H and L to make it appear the same colour as a nearby div that is 50% grey. A good alternative would be to view through the glass filter a coloured letter against a 50% grey bg that disappears when you get the right setting
+ - Work out a way to set right and left filter colours for binocular vision tests. See an example at test_filter_colour.htm Any such config will necessarily be an average of the best setting for each filter alone. Would this need to be included in the config process or can the user work it our for herself?
     
 Ver1.8
  - fixed bug of bg colour not stored on first use.
