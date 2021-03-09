@@ -1,11 +1,11 @@
 # WolfChart v2.0
 by Ballantyne de Wolf, Offspring Digital
 
-This is professional optometrist/optician/ophthalmologist tool for measuring visual acuity. It cannot be used safely by the general public.
+This is professional optometrist/optician/ophthalmologist tool for sight testing. It cannot be used safely by the general public.
 If you have any concerns about your vision or eyes, consult a qualified professional.
 
 Now that's out of the way, the objectives are:
-  1. Clinically relevant, scientifically supported visual acuity measurement in the widest possible range of clinical and research settings
+  1. Clinically relevant, scientifically supported sight testing tools, in the widest possible range of clinical and research settings.
   2. Open source with GNU licence
   3. Can be used on a wide variety of screen hardware
   3. Customisable optotypes and alphabets to come eg Arabic, Hebrew, Chinese, Thai, Cyrillic etc
