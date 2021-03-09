@@ -18,6 +18,7 @@ Var2.0
  - Chart keeps track of your usage, offering your most-used chart on key strokes and nav buttons
  - Fixed viewport - now uses document.documentwindow.clientHeight and a trimmed window.innerWidth at all times
  - Single charts have spacebar/onclick/button function to eg zoom
+ - Removed colour pickers, replaced with text, preset buttons and hue-only sliders for filter tests
  - Various improvements under bonnet
  - Switched off PWA features like manifest and sw.js - will maybe bring them back later.
     
