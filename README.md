@@ -1,4 +1,4 @@
-# WolfChart v1.8
+# WolfChart v2.0
 by Ballantyne de Wolf, Offspring Digital
 
 This is professional optometrist/optician/ophthalmologist tool for measuring visual acuity. It cannot be used safely by the general public.
@@ -11,12 +11,15 @@ Now that's out of the way, the objectives are:
   3. Customisable optotypes and alphabets to come eg Arabic, Hebrew, Chinese, Thai, Cyrillic etc
 
 To Do List
- - Fix cross-browser issues with use of the viewport:
-   - Remove user control of display width - just use the whole viewport width always, except for a column on RHS containing the hamburger and the nav controls to be added in ver2.
-   - Fix viewport height problems in mobile browsers - they go into fullscreen mode on scroll down and it breaks the formatting. Again, use full viewport height always.
- - Setup index.htm & sw.js for pushing updates to users via a standard snackbar at foot.
- - Make config menu fieldsets collapse like their help section, preparing for having more config menu items.
- - Work out a way to set right and left filter colours for binocular vision tests. See an example at test_filter_colour.htm Any such config will necessarily be an average of the best setting for each filter alone. Would this need to be included in the config process or can the user work it our for herself?
+
+Var2.0
+ - Now displays charts in 4 categories, using direction buttons and keys to navigate
+ - Right hand sidebar containing controls
+ - Chart keeps track of your usage, offering your most-used chart on key strokes and nav buttons
+ - Fixed viewport - now uses document.documentwindow.clientHeight and a trimmed window.innerWidth at all times
+ - Single charts have spacebar/onclick/button function to eg zoom
+ - Various improvements under bonnet
+ - Switched off PWA features like manifest and sw.js - will maybe bring them back later.
     
 Ver1.8
  - fixed bug of bg colour not stored on first use.
